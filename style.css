@@ -1,7 +1,9 @@
-
-
-#maindiv{
-    background: linear-gradient(#530016,#991600,#530016);
-    height: 20px;
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainnav{
+    background: linear-gradient(to right,#530016,#991600,#530016);
+    height: 184px;
     width: 100%;
 }
