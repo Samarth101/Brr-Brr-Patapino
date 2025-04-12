@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Racing+Sans+One&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -88,26 +89,6 @@ body::-webkit-scrollbar {
     font-family: 'Racing Sans One';
 }
 
-.speed {
-    font-size: 96px;
-    font-weight: 400;
-    background: linear-gradient(to left, #FF2400, #FF6A00, #FFD700);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-family: 'Racing Sans One';
-}
-
-.since {
-    font-size: 96px;
-    font-weight: 400;
-    background: linear-gradient(to left, #FF2400, #FF6A00, #FFD700);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-family: 'Racing Sans One';
-}
-
 .year-flag {
     position: absolute;
     padding: 10px 15px;
@@ -118,6 +99,16 @@ body::-webkit-scrollbar {
     z-index: 2;
 
 }
+.side-note {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    color: white;
+    font-size: 14px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    z-index: 2;
+}  
 
 .y1968 {
     top: 85px;
@@ -329,7 +320,6 @@ h1 {
         opacity: 1;
     }
 }
-
 
 .main-heading p{
     animation: slideInFromTop 1.5s ease-out;
